@@ -45,6 +45,10 @@ class Main extends Sprite
 
 		setupGame();
 	}
+
+
+	private function setupGame():Void
+	{
 		var stageWidth:Int = Lib.current.stage.stageWidth;
 		var stageHeight:Int = Lib.current.stage.stageHeight;
 
@@ -58,4 +62,5 @@ class Main extends Sprite
 		}
 
 		addChild(new FlxGame(game.width, game.height, game.initialState, game.fps, game.fps, game.skipSplash, game.startFullscreen));
+	}
 }
