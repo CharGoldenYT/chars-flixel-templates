@@ -1,4 +1,5 @@
 #if !macro
+// import backend.Controls;
 import flixel.FlxSprite;
 import flixel.text.FlxText;
 import flixel.util.FlxTimer;
@@ -10,7 +11,12 @@ import flixel.FlxG;
 import flixel.FlxCamera;
 import flixel.FlxState;
 import flixel.input.keyboard.FlxKey;
+import chars_tools.BaseState;
+#if (flixel >= "6.0.0")
+import flixel.sound.FlxSound;
+#else
 import flixel.system.FlxSound;
+#end
 import flixel.FlxObject;
 import flixel.group.FlxGroup;
 import flixel.group.FlxGroup.FlxTypedGroup;
