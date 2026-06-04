@@ -1,4 +1,4 @@
-package;
+package backend;
 
 import flixel.FlxGame;
 import openfl.Lib;
@@ -10,7 +10,7 @@ class Main extends Sprite
 	var game = {
 		width: 0,
 		height: 0,
-		initialState: PlayState,
+		initialState: InitState,
 		zoom: -1.0,
 		fps: 60,
 		skipSplash: true,

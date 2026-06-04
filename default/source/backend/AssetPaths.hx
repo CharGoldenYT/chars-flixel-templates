@@ -1,4 +1,4 @@
-package;
+package backend;
 
 /**
  * Helper class to access asset paths in a type-safe manner.

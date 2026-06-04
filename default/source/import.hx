@@ -11,7 +11,11 @@ import flixel.FlxG;
 import flixel.FlxCamera;
 import flixel.FlxState;
 import flixel.input.keyboard.FlxKey;
-import chars_tools.BaseState;
+import backend.BaseState;
+import states.PlayState;
+import states.InitState;
+import backend.AssetPaths;
+import backend.Main;
 #if (flixel >= "6.0.0")
 import flixel.sound.FlxSound;
 #else
