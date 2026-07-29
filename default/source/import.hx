@@ -16,7 +16,7 @@ import states.PlayState;
 import states.InitState;
 import backend.AssetPaths;
 import backend.Main;
-#if (flixel >= "6.0.0")
+#if (flixel >= "5.5.0")
 import flixel.sound.FlxSound;
 #else
 import flixel.system.FlxSound;
