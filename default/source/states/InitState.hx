@@ -10,6 +10,11 @@ class InitState extends FlxState
         super.create();
 
         // Force the splash to play.
+        #if (flixel >= "6.0.0")
         FlxG.switchState(() -> new FlxSplash(() -> new PlayState()));
+        #else
+        FlxSplash.nextState = PlayState;
+        FlxG.switchState(new FlxSplash());
+        #end
     }
 }
